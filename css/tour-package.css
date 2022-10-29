@@ -1,0 +1,90 @@
+.tour-package-header {
+  height: 413px;
+  width: 80%;
+  background-size: cover;
+  background-position: center center;
+}
+.tour-package-header h1 {
+  font-size: 80px;
+  text-align: left;
+  position: relative;
+  bottom: 90px;
+}
+.tour-package-header p {
+  text-align: right;
+  position: relative;
+  bottom: -30px;
+  right: 20px;
+  font-size: 30px;
+}
+
+.tour-details {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 4em;
+}
+.tour-details .location-highlights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 2em;
+  width: 100%;
+  margin: 2em 0;
+}
+.tour-details .location-highlights img {
+  height: 347px;
+  width: 28%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.tour-details div h1 {
+  margin-top: 1em;
+}
+
+#tour-01 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-01.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-01.jpg);
+}
+
+#tour-02 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-02.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-02.jpg);
+}
+
+#tour-03 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-03.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-03.jpg);
+}
+
+#tour-04 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-04.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-04.jpg);
+}
+
+#tour-05 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-05.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-05.jpg);
+}
+
+#tour-06 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-06.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-06.jpg);
+}
+
+#tour-07 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-07.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-07.jpg);
+}
+
+#tour-08 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-08.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-08.jpg);
+}
+
+#tour-09 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.527)), to(rgba(0, 0, 0, 0.2))), url(../images/tour/tour-09.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.2)), url(../images/tour/tour-09.jpg);
+}

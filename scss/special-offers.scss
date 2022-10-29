@@ -1,0 +1,57 @@
+.special {
+
+    text-underline-position: under;
+    width: 80%;
+    margin: 5em auto;
+    height: 100%;
+    
+
+    .heading {
+        font-size: 30px;
+        line-height: 1em;
+        display: inline;     
+        font-family: "Proxima Nova";
+    }
+    
+    .discount {
+        color: #FF7D38;
+        font-size: 20px;
+    }
+
+    .offers {
+        
+        margin-top: 2em;
+        .offer-card {
+            
+            display: flex;
+            flex-direction: row;
+            padding-top: 1em;
+
+            img {
+                height: 278px;
+                width: 200px;
+                object-fit: cover;
+                object-position: center;
+            }
+
+            .detail {
+                width: 40%;
+                margin: 0 0 0 2em;
+                p {
+                    width: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .offers {
+        
+        .offer-card {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

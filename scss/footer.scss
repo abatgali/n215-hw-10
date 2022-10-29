@@ -1,0 +1,24 @@
+footer {
+    
+    padding: 1em;
+    background-color: #79ADDC;
+    color: white;
+    
+
+    .footer-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: small;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px)
+ { 
+    .footer-items {
+        flex-direction: column;
+        gap: 1em;
+    }
+ }

@@ -1,0 +1,88 @@
+header {
+    background-image: url(../images/tour/tours-header.jpg);
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+
+    h1 {
+        padding-top: 1.2em;
+    }
+}
+
+.tours-page {
+    margin: 1.5em auto 5em 0;
+
+    #packages {
+        width: 60%;
+        margin: 3em auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
+        // border: 1px solid black;
+        gap: 2.7em;
+    }
+
+    .tour-card {
+        width: 236px;
+        height: 304px;
+        // border: 1px solid black;
+        align-content: center;
+        text-align: center;
+        color: white;
+
+        span {
+            font-size: 30px;
+        }
+    }
+
+    #isr {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+
+    }
+
+    #usa {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+
+    }
+    #aus {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+
+    }
+    #nez {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-04.jpg);
+
+    }
+    #fra {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-05.jpg);
+
+    }
+    #egy {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-06.jpg);
+
+    }
+    #jap {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-07.jpg);
+
+    }
+    #can {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-08.jpg);
+
+    }
+    #uae {
+        background-size: cover;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.4)), url(../images/tour/tour-09.jpg);
+
+    }
+}

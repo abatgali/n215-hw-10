@@ -1,0 +1,23 @@
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+.hero .details {
+  padding: 3em;
+}
+.hero p {
+  font-style: italic;
+  width: 40%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
+  .hero p {
+    width: 70%;
+  }
+}
